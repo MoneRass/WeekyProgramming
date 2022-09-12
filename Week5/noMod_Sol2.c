@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int res,a,b;
+    int a,res;
     scanf_s("%d", &a);
-    res=a&1;
-    if(res==0)printf("Even");
+    res=a-(2*(a/2));
+    if (res==0 && a!=1) printf("Even");
     else printf("Odd");
     return 0;
-}
+} 
